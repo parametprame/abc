@@ -18,7 +18,7 @@ contract Staking is ReentrancyGuard, IStaking, Ownable {
 
     uint256 public RWD_PER_ETH_PER_DAY = 10e18; // 10 RWD token per day
     uint256 public BLOCKS_PER_DAY = 17280; // 1 day = 17,280 blocks (24 hours × 60 minutes × 60 seconds ÷ 5s per block)
-    uint256 public BLOCKS_UNTIL_CLAIM_AVAILABLE = 12; // 1 hour = 720 blocks (5s per block)
+    uint256 public BLOCKS_UNTIL_CLAIM_AVAILABLE = 720; // 1 hour = 720 blocks (5s per block)
     uint256 public constant ACC_REWARD_PRECISION = 1e12;
 
     uint256 public lastRewardBlock; /// Last block number that RWD distribution occurs.
