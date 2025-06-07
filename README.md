@@ -105,7 +105,7 @@ npm i
 ```bash
 touch .env.local
 
-NEXT_PUBLIC_STAKING_CONTRACT_ADDRESS="4B2250Fbe8f8f0006F8D85c4fC3d415eE6ce485f" // The staking contract address withour 0x prefix
+NEXT_PUBLIC_STAKING_CONTRACT_ADDRESS="<YOUR_CONTRACT_ADDRESS>" // The staking contract address withour 0x prefix
 ```
 
 #### 6.3. Start the front end
