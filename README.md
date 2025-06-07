@@ -112,3 +112,6 @@ NEXT_PUBLIC_STAKING_CONTRACT_ADDRESS="<YOUR_CONTRACT_ADDRESS>" // The staking co
 ```bash
 yarn run dev
 ```
+
+<img width="1209" alt="image" src="https://github.com/user-attachments/assets/a4b52f83-8426-4061-a6e6-e068e43c2dd2" />
+
