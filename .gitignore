@@ -1,0 +1,18 @@
+# Node.
+
+node_modules/
+dist/
+.env
+.env.*
+.env*
+
+
+
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
